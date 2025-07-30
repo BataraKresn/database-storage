@@ -1,0 +1,5 @@
+minio/*
+postgres/*
+logs/postgresql/*
+logs/minio/*
+postgres/
