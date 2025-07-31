@@ -33,3 +33,11 @@ Logs are stored in the `logs/` directory:
 ## Monitoring
 - PostgreSQL: Use `pg_stat_statements` for query monitoring.
 - MinIO: Access the MinIO Console at `http://<IP>:9001`.
+
+## Topology Diagram
+
+![Diagram Topologi](images/diagram.png)
+
+Diagram ini menunjukkan topologi proyek, di mana:
+- **Client** berinteraksi dengan layanan **MinIO** dan **PostgreSQL**.
+- **MinIO** dan **PostgreSQL** masing-masing memiliki log yang disimpan di direktori `logs/minio/` dan `logs/postgresql/`.
